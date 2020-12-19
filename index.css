@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container button {
+  background: cornflowerblue;
+  color: antiquewhite;
+  transition: 0.8s;
+}
+button:hover {
+  color: blue;
+  background: rgb(84, 84, 139);
+  box-shadow: 0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139), 0 0 10px rgb(84, 84, 139),
+    0 0 10px rgb(84, 84, 139);
+  transition: 2s;
+}
